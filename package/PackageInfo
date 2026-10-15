@@ -1,0 +1,18 @@
+name			quill
+version			1.0.0-5
+architecture	x86_64
+summary			"A classic word processor in the style of Word 5.1 for Macintosh"
+description		"Quill is a word processor for Haiku modelled on Microsoft Word 5.1 for the Macintosh: the same menus, Toolbar, Ribbon and Ruler, Normal, Outline and Page Layout views and Print Preview, character, paragraph, section and document formatting, styles, tabs, borders, tables, columns, headers and footers, footnotes, pictures, table of contents, find and replace, glossary, spelling, sort, calculate and renumber. Documents are stored in Rich Text Format."
+packager		"Quill project"
+vendor			"Quill project"
+copyrights		"2026 Quill project"
+licenses		"MIT"
+
+provides {
+	quill = 1.0.0
+	app:Quill = 1.0.0
+}
+
+requires {
+	haiku >= r1~beta6
+}

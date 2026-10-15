@@ -1,0 +1,24 @@
+/* Quill application resources. */
+resource app_signature "application/x-vnd.Quill";
+
+/* One application for all documents; later launches deliver their
+ * files to the running instance. */
+resource app_flags B_SINGLE_LAUNCH;
+
+resource app_version {
+	major  = 1,
+	middle = 0,
+	minor  = 0,
+	variety = B_APPV_FINAL,
+	internal = 1,
+	short_info = "Quill",
+	long_info = "Quill, a classic word processor for Haiku."
+};
+
+resource file_types message {
+	"types" = "text/rtf",
+	"types" = "application/rtf",
+	"types" = "text/plain"
+};
+
+resource(101, "BEOS:ICON") #'VICN' import "Quill.hvif";
