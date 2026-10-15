@@ -153,6 +153,11 @@ laid out in under a second; typing costs a few milliseconds per character).
 
 See `docs/design.md` for how the pieces work.
 
+## Authors
+
+- John Rash
+- Claude Opus 5.5
+
 ## License
 
 MIT, see `LICENSE`.
